@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* color: #cea02a; */
+  color: #c0af6c;
+  /* background-color: black; */
+}
+.main-container {
+  background-color: black;
+  margin: 0;
+}
+
+.main-content {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: black;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1% 0;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 2;
+}
+.menu ul {
+  min-width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-family: "New Rocker", cursive;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #c3b066;
+}
+.menu img {
+  max-height: 7vh;
+}
+.welcome-image {
+  max-width: 100vw;
+  margin: 0;
+  height: 100vh;
+  opacity: 0.9;
+  display: flex;
+}
+.welcome-image img {
+  max-height: 100vh;
+  width: 100vw;
+  align-self: center;
+  margin: auto;
+}
+.home-banner {
+  margin: 4% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  font-family: "New Rocker", cursive;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+}
+.home-banner-text {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+.home-banner h1 {
+  font-size: 11em;
+  color: crimson;
+  /* color: red; */
+}
+.home-banner h2 {
+  font-size: 5em;
+  color: crimson;
+  /* color: red; */
+}
+.home-banner h3 {
+  color: black;
+  font-size: 3em;
+  /* color: red; */
+}
+.about-us {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 100vh;
+  margin: 6% auto;
+}
+.about-us-image img {
+  max-height: 60vh;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+.about-us-text {
+  flex: 0.9;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.our-artists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: black;
+}
+.artist-options a {
+  text-decoration: none;
+  color: crimson;
+  font-family: "New Rocker", cursive;
+  font-size: 3em;
+}
+.our-artists h2,
+.recent-tattoos h2 {
+  font-family: "New Rocker", cursive;
+  height: 15vh;
+  min-width: 100%;
+  text-align: center;
+  background-color: #c0af6c;
+  color: black;
+  margin: 5% auto;
+  font-size: 4em;
+  padding-top: 0.6em;
+  text-transform: uppercase;
+}
+.artist-options {
+  min-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 7%;
+}
+.artist1,
+.artist2,
+.artist3,
+.artist4 {
+  border: 1px solid #c0af6c;
+  border-radius: 5%;
+  min-height: 30vh;
+  min-width: 13vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.artist1,
+.artist4,
+.artist3,
+.artist2 {
+  background-image: url(./images/jacob.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recent-tattoos-gallery {
+  min-height: 100vh;
+  padding-bottom: 10%;
+  margin: 10% 10% 0% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recent-tattoos-gallery img {
+  max-height: 52vh;
+}
+.contact-us {
+  margin: 0;
+  display: flex;
+  min-width: 100%;
+  height: 67vh;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid #c3b066; */
+}
+.address,
+.business-hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+  line-height: 3em;
+  padding: 1%;
+  text-decoration: none;
+}
+.address h4,
+.business-hours h4 {
+  font-family: "New Rocker", cursive;
+  font-size: 3em;
+}
+.address h5,
+.business-hours h5 {
+  font-family: "New Rocker", cursive;
+  font-size: 2em;
+}
+.address p,
+.business-hours p {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 1.5em;
+}
+footer {
+  background-color: black;
+  overflow: hidden;
+}
