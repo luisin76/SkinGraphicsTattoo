@@ -160,14 +160,14 @@
 .artist4,
 .artist3,
 .artist2 {
-  background-image: url(./images/jacob.jpeg);
+  /* background-image: url(./images/jacob.jpeg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.recent-tattoos {
+  margin-bottom: 0;
+}
 .recent-tattoos-gallery {
-  min-height: 100vh;
-  padding-bottom: 10%;
   margin: 10% 10% 0% 10%;
   display: flex;
   flex-wrap: wrap;
